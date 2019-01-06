@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "451153483725",
+    "firebase_url": "https://love-your-husband.firebaseio.com",
+    "project_id": "love-your-husband",
+    "storage_bucket": "love-your-husband.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:451153483725:android:ac03525dc720fc48",
+        "android_client_info": {
+          "package_name": "com.loveyourhusband"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "451153483725-6hbullpgmf8v72jplbmjac97307e2da1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.loveyourhusband",
+            "certificate_hash": "0894434daf79b4d2d060c6e1dd6555a0abb29251"
+          }
+        },
+        {
+          "client_id": "451153483725-rf6p4n18in6db0jtrmf19rslq2q0ro9f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDvBo1J-LvbxY8B2AB-h6tYR0AHzse3u2k"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "451153483725-rf6p4n18in6db0jtrmf19rslq2q0ro9f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -398,8 +398,8 @@ public class MainActivity extends AppCompatActivity implements Day.OnPurchaseBut
 
 
         Task<ShortDynamicLink> shortTask = FirebaseDynamicLinks.getInstance().createDynamicLink()
-                .setLink(Uri.parse("http://jeffreypadgett.wixsite.com/loveyourwife")) // put website here
-                .setDynamicLinkDomain("loveyourwife.page.link")
+                .setLink(Uri.parse("http://jeffreypadgett.wixsite.com/loveyourhusband")) // put website here
+                .setDynamicLinkDomain("loveyourhusband.page.link")
                 // Open links with this app on Android
                 .setAndroidParameters(new DynamicLink.AndroidParameters.Builder().build())
                 .buildShortDynamicLink().addOnCompleteListener(new OnCompleteListener<ShortDynamicLink>() {
