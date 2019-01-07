@@ -183,8 +183,8 @@ public class TrophyPage extends AppCompatActivity {
 
 
         Task<ShortDynamicLink> shortTask = FirebaseDynamicLinks.getInstance().createDynamicLink()
-                .setLink(Uri.parse("http://jeffreypadgett.wixsite.com/loveyourwife")) // put website here
-                .setDynamicLinkDomain("loveyourwife.page.link")
+                .setLink(Uri.parse("http://jeffreypadgett.wixsite.com/loveyourhusband")) // put website here
+                .setDynamicLinkDomain("loveyourhusband.page.link")
                 // Open links with this app on Android
                 .setAndroidParameters(new DynamicLink.AndroidParameters.Builder().build())
                 .buildShortDynamicLink().addOnCompleteListener(new OnCompleteListener<ShortDynamicLink>() {
@@ -198,11 +198,11 @@ public class TrophyPage extends AppCompatActivity {
                             String dynamicString = shortLink.toString();
 
 
-                            String msg = "Hi, I have been using this app called LoveYourWife.  It can help improve your marriage. " + dynamicString;
-                            String subject = "Love Your Wife";
-                            String msgHtml = String.format("<p>Hi!  I've been using this app called Love Your Wife, and wanted to recommend it to you.  "
-                                    + "It has great ideas to improve your marriage and love your wife better. " +
-                                    " Click on this link to check it out. " + "<a href=\"%s\">Love Your Wife</a>!</p>", dynamicString);
+                            String msg = "Hi, I have been using this app called Love Your Husband.  It can help improve your marriage. " + dynamicString;
+                            String subject = "Love Your Husband";
+                            String msgHtml = String.format("<p>Hi!  I've been using this app called Love Your Husband, and wanted to recommend it to you.  "
+                                    + "It has great ideas to improve your marriage and love your husband better. " +
+                                    " Click on this link to check it out. " + "<a href=\"%s\">Love Your Husband</a>!</p>", dynamicString);
 
                             Intent sendIntent = new Intent();
                             sendIntent.setAction(Intent.ACTION_SEND);
