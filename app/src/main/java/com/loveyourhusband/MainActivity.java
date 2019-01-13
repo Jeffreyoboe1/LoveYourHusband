@@ -75,6 +75,7 @@ public class MainActivity extends AppCompatActivity implements Day.OnPurchaseBut
         // see if the content has been purchased before and saved into sharedPref.
         SharedPreferences sharedPref = getSharedPreferences("CONTENTPURCHASED", 0);
         mActivityContentPurchased = sharedPref.getBoolean("CONTENTPURCHASED", false);
+        Log.d(TAG, "content purchased at start is: " + mActivityContentPurchased);
 
         bannerAd = new AdView(this);
         bannerAd = findViewById(R.id.bannerAd);
@@ -520,10 +521,14 @@ public class MainActivity extends AppCompatActivity implements Day.OnPurchaseBut
         Log.d(TAG, "Query inventory was successful.");
 
         List<Purchase> innerPurchaseList = result.getPurchasesList();
+        Log.d(TAG, "purchase list is: " + innerPurchaseList.toString());
 
-        if (innerPurchaseList!=null) {
+        if (!innerPurchaseList.isEmpty()) {
+            Log.d(TAG, "purchase list is: " + innerPurchaseList.toString());
 
             for (Purchase purchase: innerPurchaseList) {
+
+                Log.d(TAG, "purchase is: " + purchase.getSku());
                 switch (purchase.getSku()) {
                     case "release_ads_and_content":
                         // TODO: update the UI.
@@ -531,21 +536,49 @@ public class MainActivity extends AppCompatActivity implements Day.OnPurchaseBut
                         Log.d(TAG, "update the UI with appropriate arguments by changing boolean");
                         Log.d(TAG, "mActivityContentPurchased = " +mActivityContentPurchased);
                         mActivityContentPurchased = true; // use this to update the UI.
+                        SharedPreferences sharedPreferences = getSharedPreferences("CONTENTPURCHASED", 0);
+                        sharedPreferences.edit().putBoolean("CONTENTPURCHASED", true).commit();
                         Log.d(TAG, "now mActivityContentPurchased = " +mActivityContentPurchased);
+
+
+                        //TODO:  remove this...
+                        /*
+                        // this section deletes my purchase so I can purchase again when testing on Mike's account.
+                        String purchaseToken = purchase.getPurchaseToken();
+                        mBillingClient.consumeAsync(purchaseToken, new ConsumeResponseListener() {
+4                            @Override
+                            public void onConsumeResponse(int responseCode, String purchaseToken) {
+                                if (responseCode==0) {
+                                    Log.d(TAG, "consumed my test purchase.");
+                                }else {
+                                    Log.d(TAG, "did not consume my test purchase., response code: " + responseCode);
+                                }
+                            }
+                        });
+                        */
+
+
+
+
                         break;
                     case "android.test.purchased":
                         Log.d(TAG, "android.test.purchased has already been purchased.");
                         Log.d(TAG, "update the UI with appropriate arguments by changing boolean");
                         Log.d(TAG, "mActivityContentPurchased = " +mActivityContentPurchased);
                         mActivityContentPurchased = true;
+                        SharedPreferences sharedPreferences2 = getSharedPreferences("CONTENTPURCHASED", 0);
+                        sharedPreferences2.edit().putBoolean("CONTENTPURCHASED", true).commit();
                         Log.d(TAG, "now mActivityContentPurchased = " +mActivityContentPurchased);
                         break;
                 }
             }
 
 
-        } else if (innerPurchaseList == null) {
+        } else {
             mActivityContentPurchased =false;
+            SharedPreferences sharedPreferences = getSharedPreferences("CONTENTPURCHASED", 0);
+            sharedPreferences.edit().putBoolean("CONTENTPURCHASED", false).commit();
+            Log.d(TAG, "content purchased set to false.");
         }
 
       //  onPurchasesUpdated2(BillingClient.BillingResponse.OK, result.getPurchasesList());
@@ -578,6 +611,7 @@ public class MainActivity extends AppCompatActivity implements Day.OnPurchaseBut
                 //   skuList.add("android.test.unavailable");
                 Intent purchaseSuccess = new Intent(MainActivity.this, ThankYou.class);
                 SharedPreferences sharedPreferences = getSharedPreferences("CONTENTPURCHASED", 0);
+
                 switch (purchase.getSku()) {
                     case "release_ads_and_content":
                         Log.d(TAG, "purchased release_ads_and content");

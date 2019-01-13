@@ -124,7 +124,8 @@ public class Day extends Fragment {
         // if on day 1-6, display either the lock or the app.
 
 
-        //if not first or 2nd challenge, and previous day is not completed
+        // This brings up the locked page.  I am disabling this, so that all content is available.
+        /*
         if (mParam1>6 && contentPurchased == false) {
             View v = inflater.inflate(R.layout.fragment_unpurchased, container, false);
 
@@ -160,7 +161,10 @@ public class Day extends Fragment {
 
             return v;
         }
-        else if (mParam1!=0 && mParam1!=1 && previousDayCompleted == false) {
+        */
+
+
+        if (mParam1!=0 && mParam1!=1 && previousDayCompleted == false) {
             View v = inflater.inflate(R.layout.fragment_locked, container, false);
 
             tvLocked = (TextView)v.findViewById(R.id.tvLocked);
