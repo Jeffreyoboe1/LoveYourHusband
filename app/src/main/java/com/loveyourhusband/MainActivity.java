@@ -80,7 +80,7 @@ public class MainActivity extends AppCompatActivity implements Day.OnPurchaseBut
         bannerAd = new AdView(this);
         bannerAd = findViewById(R.id.bannerAd);
 
-        if (mActivityContentPurchased == false) {
+        if (!mActivityContentPurchased) {
             //TODO:  replace with my legit app id, which is in my email.  This is a test.
 
             // Love your husband app id is: ca-app-pub-2213157796139553~8971605339
@@ -660,7 +660,14 @@ public class MainActivity extends AppCompatActivity implements Day.OnPurchaseBut
    public void showAd(final Intent intent) {
 
 
+
         if (!mActivityContentPurchased) {
+
+            if (mInterstitialAd == null) {
+                mInterstitialAd = new InterstitialAd(this);
+                mInterstitialAd.setAdUnitId("ca-app-pub-2213157796139553/2428703126");
+            }
+
             mInterstitialAd.setAdListener(new AdListener() {
 
                 @Override
