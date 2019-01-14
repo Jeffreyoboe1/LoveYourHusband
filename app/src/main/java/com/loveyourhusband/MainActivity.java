@@ -83,6 +83,8 @@ public class MainActivity extends AppCompatActivity implements Day.OnPurchaseBut
         if (!mActivityContentPurchased) {
             //TODO:  replace with my legit app id, which is in my email.  This is a test.
 
+            Log.d(TAG, "called with content not purchased");
+
             // Love your husband app id is: ca-app-pub-2213157796139553~8971605339
             // Love your wife app id is: ca-app-pub-3940256099942544~3347511713
             MobileAds.initialize(this, "ca-app-pub-2213157796139553~8971605339");
@@ -105,6 +107,7 @@ public class MainActivity extends AppCompatActivity implements Day.OnPurchaseBut
             bannerAd.loadAd(adRequest);
 
         } else {
+            Log.d(TAG, "called with content is purchased");
 
 
             RelativeLayout.LayoutParams params= new RelativeLayout.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT,ViewGroup.LayoutParams.MATCH_PARENT);
@@ -146,6 +149,8 @@ public class MainActivity extends AppCompatActivity implements Day.OnPurchaseBut
                     Log.d(TAG, "The billing client is ready. You can query purchases here.");
 
                    // TODO:  remove test consumptions
+
+                    /*
                     String purchaseToken = "inapp:" + getPackageName() + ":android.test.purchased";
                     mBillingClient.consumeAsync(purchaseToken, new ConsumeResponseListener() {
                         @Override
@@ -157,6 +162,7 @@ public class MainActivity extends AppCompatActivity implements Day.OnPurchaseBut
                             }
                         }
                     });
+                    */
 
                     // here we determine if the user has purchased the rest of the content, days 8-30.
 
@@ -666,6 +672,7 @@ public class MainActivity extends AppCompatActivity implements Day.OnPurchaseBut
             if (mInterstitialAd == null) {
                 mInterstitialAd = new InterstitialAd(this);
                 mInterstitialAd.setAdUnitId("ca-app-pub-2213157796139553/2428703126");
+
             }
 
             mInterstitialAd.setAdListener(new AdListener() {
