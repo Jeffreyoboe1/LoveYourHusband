@@ -171,4 +171,12 @@
     <string name="unlock_days_7_30_and_remove_all_ads_from_the_app">Unlock Days 7-30 and remove all ads from the app.
     </string>
     <string name="unlock">Unlock</string>
+    <string name="completed">Completed!</string>
+    <string name="invite">Invite</string>
+    <string name="currentChallenge">Current Challenge</string>
+    <string name="day1">Day 1</string>
+    <string name="day30">Day 30</string>
+    <string name="trophies">Trophies</string>
+    <string name="recommendToFriend">Recommend to Friend</string>
+    <string name="sayMore">You can say a little more than that!</string>
 </resources>

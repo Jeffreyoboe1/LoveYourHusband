@@ -171,8 +171,8 @@ public class Day extends Fragment {
             tvLockedDayNumber = (TextView)v.findViewById(R.id.tvLockedDayNumber);
             tvLockedCompleteOtherDay =(TextView)v.findViewById(R.id.tvCompleteOtherDay);
 
-            tvLockedDayNumber.setText("Day " + day);
-            tvLockedCompleteOtherDay.setText("Complete the challenge on day "  + (day-1) + " to unlock.");
+            tvLockedDayNumber.setText(getString(R.string.Day) +  " " + day);
+            tvLockedCompleteOtherDay.setText(getString(R.string.CompleteChallengeOn) + " " + (day-1) + " " + getString(R.string.SpaceToUnlock));
             return v;
         } else {  // if on day 1, day 2, or if previous challenge is completed, and content is purchased
 
@@ -189,7 +189,7 @@ public class Day extends Fragment {
             imageView = v.findViewById(R.id.imageView);
             btnRemoveAds = v.findViewById(R.id.btnRemoveAds);
 
-            tvDayNumber.setText("Day " + day);
+            tvDayNumber.setText(getString(R.string.Day) + " " + day);
 
             sharedPrefKey = mParam1 + "";
 
@@ -204,10 +204,10 @@ public class Day extends Fragment {
             final Boolean dayCompleted = sharedPrefCompleted.getBoolean(sharedPrefKey, false);
 
             if (dayCompleted) {
-                btnComplete.setText("Completed!");
+                btnComplete.setText(getString(R.string.completed));
                 btnComplete.setEnabled(false);
             } else {
-                btnComplete.setText("Complete");
+                btnComplete.setText(R.string.complete);
             }
 
 
@@ -335,7 +335,7 @@ public class Day extends Fragment {
 
                     }
                     else {
-                        Toast.makeText(getActivity(), "You can say a little more than that! ", Toast.LENGTH_LONG).show();
+                        Toast.makeText(getActivity(), getString(R.string.sayMore), Toast.LENGTH_LONG).show();
                     }
 
                 }

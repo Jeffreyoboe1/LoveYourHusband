@@ -151,7 +151,7 @@
     <string name="BillingDisconnectStartService">Billing is disconnected, called start Service connection again</string>
     <string name="BillingNotSupported">La facturación de Google Play no es compatible con este dispositivo.</string>
     <string name="Day">Día</string>
-    <string name="CompleteChallengeOn">Completa el desafío el día.</string>
+    <string name="CompleteChallengeOn">Completa el desafío el dia</string>
     <string name="SpaceToUnlock">para desbloquear.</string>
     <string name="CompleteChallengeForTrophy">Debes completar un desafío para obtener un trofeo.</string>
     <string name="thank_you_for_purchasing">Gracias por apoyar este proyecto y, lo que es más importante, gracias por invertir en usted, su esposo y su matrimonio. ¡Mantener el buen trabajo!
@@ -170,4 +170,12 @@
     <string name="unlock_days_7_30_and_remove_all_ads_from_the_app">Desbloquea los días 7-30 y elimina todos los anuncios de la aplicación.
     </string>
     <string name="unlock">Desbloquea</string>
+    <string name="completed">¡Terminado!</string>
+    <string name="invite">Invitación</string>
+    <string name="currentChallenge">Desafío Actual</string>
+    <string name="day1">Dia 1</string>
+    <string name="day30">Dia 30</string>
+    <string name="trophies">Trofeos</string>
+    <string name="recommendToFriend">Recomendar a un amigo</string>
+    <string name="sayMore">¡Puedes decir un poco más que eso!</string>
 </resources>
