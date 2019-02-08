@@ -1,0 +1,159 @@
+<resources>
+    <string name="app_name">Love Your Husband</string>
+    <string name="action_settings">Ajustes</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+
+    <string name="day1text">\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020Amar a tu esposo comienza en tu corazón y en tu mente.
+                Hoy, escribe 20 cosas sobre tu esposo por las que estás realmente agradecido.
+    </string>
+    <string name="day2text">\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020A veces es cierto lo que dicen, el camino.
+                ¡Al corazón de un hombre está a través de su estómago! Puede que seas un gran cocinero en la cocina o un tipo de persona
+                ¿Quién preferiría pedir la entrega! De cualquier manera, tu esposo apreciará este gesto. Dile que quieres cocinar
+                Algo especial, y pregúntale qué le gustaría tener. Haz tu mejor esfuerzo para encontrar una buena receta. Cocinar la comida
+                lo mejor que pueda, coloque los platos de fantasía y ponga la mesa extravagante. Incluso si la comida no se convierte en el camino
+                le gustaría, definitivamente apreciará su esfuerzo en crear una noche de cita especial.</string>
+    <string name="day3text">\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020Fecha de la película! Mira una película (¡no un programa!) Con
+                tu marido. Esto puede ser en casa o en un cine. Asegúrate de que sepa que es su turno de recoger. Si él
+                elige algo que no te gusta, eso está bien! Trate de ser alegre - no te quejes! Es una oportunidad para expandir tu
+                gustos, y también practicar a demostrarle a tu esposo que te preocupas por sus intereses, incluso si los tuyos son diferentes.
+                ¿Qué viste?
+    </string>
+    <string name="day4text">\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020Un marido debería amarte sin importar lo que tú
+                ¡parece! Pero al mismo tiempo, los hombres tienden a ser más orientados visualmente que las mujeres. Hoy, toma especial
+                Consideración para mejorar su apariencia física de una manera que su marido tiende a apreciar.
+                Por ejemplo, esto podría ser usar un vestido que le guste, entrenar para estar mejor en forma, peinar tu cabello de una manera
+                que realmente le gusta ponerse maquillaje o deshacerse de una prenda que realmente odia. Tu
+                El esposo debería amarte a pesar de todo, pero apreciará el esfuerzo que tomas y la atención que le prestas.
+                Sugerencias</string>
+    <string name="day5text">\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020Hoy, planea una cita realmente elegante con tu esposo.
+                ¡Está bien gastar dinero para pasar un buen rato con su cónyuge de vez en cuando! Piensa en algo donde ambos puedan
+                realmente vestido para impresionar. ¡Quieres poder usar tu mejor vestido, tus mejores joyas, pasar un buen rato y recordar lo afortunado que eres al tenerte el uno al otro! ¡Que te diviertas!</string>
+    <string name="day6text">\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020A veces, amar a tu esposo significa que primero debes tomarte un tiempo para amarte a ti mismo. Hoy, tómate el tiempo para hacer algo que realmente refresque tu espíritu. Haga algo de ejercicio, medite, salga con amigos, lea algunos libros, salga al sol ... encuentre algo que realmente le brinde alegría y comprométase a cuidarse hoy mismo para tener energía y agradecimiento.</string>
+    <string name="day7text">\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020Una de las cosas más importantes que podemos hacer para construir un matrimonio saludable es realmente escucharnos unos a otros. Hoy, consulte con su marido. ¿Cómo está? ¿Qué ha estado pasando en su vida últimamente? Realmente escuche, haga contacto visual, haga preguntas, asegúrese de entender de dónde viene. Si está angustiado, simpatice, pero aliéntelo y pregúntele si hay algo que pueda hacer para ayudar. Si lo está haciendo bien, se feliz por él. ¿Como es el?</string>
+    <string name="day8text">\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020Encuentra un momento con tu esposo que puedas reservar para hablar cara a cara. Dígale que quiere amarlo mejor y que sea una mejor esposa para él. Pregúntale a él cómo siente que lo has estado tratando. Pregúntale qué cree que puedes hacer para ser una mejor esposa. No critique ni se ponga a la defensiva, ya que puede decir algunas cosas que son difíciles de escuchar. Sólo escucha. Agradézcale por sus comentarios honestos, y esté dispuesto a decirle que planea hacer cambios en su vida en esos temas. Después, escriba algunos de los puntos principales aquí. ¿Cómo puedes abordar prácticamente sus preocupaciones?</string>
+    <string name="day9text">\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020Escriba una carta a su esposo. Los hombres desean respeto y gratitud. Dile todas las razones por las que estás orgulloso de él. Dígale de qué se trata, por lo que está agradecido. Dile que lo amas. Dale la carta.</string>
+    <string name="day10text">\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020Es importante que su esposo sepa que él es el primero en su vida, y una de las mejores maneras de hacerlo es prestándole toda su atención. Hoy, cada vez que su esposo le habla, deje lo que está haciendo, gire hacia él, haga contacto visual y escuche de verdad, tomándose el tiempo para escuchar todo lo que tiene en mente. ¿Como le fue?</string>
+    <string name="day11text">\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020Nehmen Sie sich Zeit für einen Spaziergang und halten Sie seine Hand. Telefone bleiben zu Hause. Ein Spaziergang ist ein großartiger Weg, um aus dem Haus zu kommen, die Natur zu genießen und Zeit zu haben, über das zu reden, was Ihnen in den Sinn kommt. Viele Paare tun dies regelmäßig. Wie ist es gelaufen?</string>
+    <string name="day12text">\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020Escriba algunas de las cosas que su esposo hace en la casa que realmente aprecia. Obtenga una nota de publicación o un pedazo de papel, elija una de esas cosas y escriba una nota expresando su agradecimiento. Colóquelo en algún lugar donde lo vea, ¡posiblemente en un lugar justo al lado de donde comienza la tarea!</string>
+    <string name="day13text">\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020Hoy, puedes hacer inventario personal. ¿Cómo crees que has sido como esposa? Escribe 3 puntos fuertes y 3 puntos débiles. Elige una de esas debilidades. Dígale a su esposo que sabe que no ha sido lo que quiere ser en esa área en particular y pida disculpas si esto lo ha lastimado. Dígale que intentará mejorarlo en el futuro y déle ejemplos específicos de lo que planea hacer para que eso suceda.</string>
+    <string name="day14text">\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020Es importante que su esposo sepa que usted habla bien de él frente a los demás. Hoy, exprese públicamente su gratitud por algo acerca de su esposo frente a su familia o amigos. Sí, Facebook también cuenta.</string>
+    <string name="day15text">\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020Escríbale una carta, diciéndole uno de sus recuerdos favoritos y déjelo en algún lugar donde no lo note de inmediato, tal vez en el auto, en su billetera o en un diario.</string>
+    <string name="day16text">\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020Tómese el tiempo para tomar la mano de su esposo o darle un abrazo hoy. Es importante que mostremos afecto físico que no sea sexual. Escribe lo que hiciste, y cómo respondió.</string>
+    <string name="day17text">\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020Probieren Sie ein neues Essen zusammen! Abenteuer sind die Würze des Lebens und es macht Spaß und wichtig, Erinnerungen mit Ihrem Ehemann zu schaffen.</string>
+    <string name="day18text">\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020¿Hay algo que tu esposo haya hecho que te haya hecho daño? Escríbelo aquí. Hoy, date cuenta de que nadie es perfecto. Perdona a tu esposo en tu corazón, como desearías ser perdonado.
+                Si necesita perdonarlo en persona, hágalo y escriba sobre la respuesta. Cuando termine, escriba "Perdonado".</string>
+    <string name="day19text">\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020La intimidad física es extremadamente importante para la mayoría de los hombres, incluso si no la expresan. Experimentan la cercanía emocional y la conexión a través de la intimidad física. Hoy, tenga una discusión franca y honesta con su esposo acerca de su actitud física. Dígale que sea honesto y que usted también lo sea. Mantenga una actitud de buena voluntad para hacer cambios.</string>
+    <string name="day20text">\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020¿Hay algún atuendo que tu esposo realmente desea que uses, pero por alguna razón, nunca lo usas? ¡Dale un tiro! ¡Incluso si está en la casa, él lo apreciará!</string>
+    <string name="day21text">\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020La próxima vez que usted y su esposo estén en desacuerdo sobre algo, ¡que gane! Se sentirá respetado, validado y de confianza.</string>
+    <string name="day22text">\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020"Todos sabemos que esperar hasta el final de la noche para tener relaciones sexuales a menudo significa que te quedas dormido antes de llegar a eso", dice Ian Kerner, experto en relaciones sexuales y sexo, y autor. Pruebe una hora alternativa para tener relaciones sexuales: su hora de almuerzo, un sábado por la tarde, cuando la casa está vacía o al deslizarse en su ducha matutina. Si las noches son realmente el único tiempo disponible, conviértalo en una prioridad: acuéstese antes, abandone los PJ de franela y haga un evento.</string>
+    <string name="day23text">\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020La ausencia hace crecer el cariño. ¡Literalmente! Hay una razón por la que el viejo sentimiento es tan clásico. Pasar tiempo aparte te da la oportunidad de reflexionar sobre tu relación, te saca de tu rutina y, lo más obvio (¡y quizás lo más importante!), ¡Te da la oportunidad de extrañarte unos a otros! Póngase en el teléfono y programe el fin de semana de las niñas del que usted y sus amigas siguen hablando, visite a su madre o regálese un poco de tiempo solo. Un poco de tiempo dedicado hará una gran diferencia en la forma en que se reconectará después.</string>
+    <string name="day24text">\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020Parejas que juegan juntas, permanecen juntas! ¡Hoy, haz un rompecabezas o juega un juego juntos! ¡Diviértete un poco!</string>
+    <string name="day25text">\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020A veces es bueno salir de la casa, probar un lugar nuevo y conversar. ¡Pídele a tu esposo una cita de café! Si no puede hacer una hoy, ¡pon una en el calendario!</string>
+    <string name="day26text">\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020Escribe algunas cosas que aprecias sobre la apariencia física de tu esposo.
+                Míralo a los ojos y felicítalo por esto. </string>
+    <string name="day27text">\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020¡Hoy, sorprende a tu esposo y agarra al azar su trasero en algún momento del día! Alternativamente, tomar una ducha juntos!</string>
+    <string name="day28text">\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020¿Recuerdas el tiempo antes de estar casado, cuando estabas saliendo? Solías coquetear, ¡aunque no lo sepas! Elige un flirteo favorito y hazlo de nuevo hoy.</string>
+    <string name="day29text">\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020Sugiera leer un libro de interés compartido o un artículo que sea interesante para ambos. Puede leerlo en voz alta juntos o leerlo por su cuenta, ¡pero haga un punto para hablar de ello!</string>
+    <string name="day30text">\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020Este desafío final es difícil. Encontrar un tiempo con
+                Tu marido que puedes dejar de lado para hablar cara a cara. Pregúntale a tu esposo cómo siente que lo has estado tratando.
+                Pregúntale qué puedes hacer para que se sienta más amado. Pregúntale qué puedes hacer para ser una mejor esposa. No critiques, solo escucha.
+                Agradézcale por sus comentarios honestos, y esté dispuesto a decirle que planea hacer cambios en su vida en esos temas.
+                Después, escriba algunos de los puntos principales aquí. ¿Cómo puedes abordar prácticamente sus preocupaciones?</string>
+
+
+
+    <string name="inspire1">\"De acuerdo con esto, te considero mi marido, para tener y mantener a partir de este día, para bien, para mal, para más, para más, para enfermar y para salud, para amar y para cuidar, hasta que la muerte nos separe, de acuerdo con a la santa ordenanza de Dios; y por eso te prometo mi fe.\"
+        \n\n — Voto de boda tradicional</string>
+    <string name="inspire2">\"El amor siempre se otorga como un regalo, libremente, voluntariamente y sin expectativa. No amamos ser amados, amamos amar.\"
+        \n\n — Leo Buscagalia</string>
+    <string name="inspire3">\"Para obtener el valor completo de la alegría, debes tener a alguien con quien dividirla.\"
+        \n\n — Mark Twain</string>
+    <string name="inspire4">\"La muerte no puede detener el amor verdadero. Todo lo que puede hacer es retrasarlo por un tiempo.\"
+        \n\n — Wesley, The Princess Bride</string>
+    <string name="inspire5">\"Mi logro más brillante fue mi capacidad de persuadir a mi esposa para que se casara conmigo.\"
+        \n\n — Winston Churchill</string>
+    <string name="inspire6">\"Maridos, amen a sus esposas, así como Cristo amó a la iglesia y se entregó a sí mismo por ella.\"
+        \n\n — Ephesians 5:25</string>
+    <string name="inspire7">\"Dos son mejores que uno, \ n
+                Porque tienen un buen retorno por su trabajo: \ n
+                Si alguno de ellos se cae, \ n
+                uno puede ayudar al otro arriba. \ n
+                Pero compadece a quien caiga.
+                y no tiene a nadie que los ayude a subir. \ n
+                Además, si dos se acuestan juntos, se mantendrán calientes. \ N
+                Pero, ¿cómo se puede mantener el calor solo? \ N
+                Aunque uno puede ser vencido, \ n
+                Dos pueden defenderse. \ n
+                Un cordón de tres dobleces no se rompe rápidamente.\"
+        \n\n — Ephesians 4:9-12</string>
+    <string name="inspire8">\"Todo lo que hacemos o sufrimos por un amigo es agradable, porque el amor es la principal causa del placer.\"
+        \n\n — Thomas Aquinas</string>
+    <string name="inspire9">\"La oscuridad no puede expulsar a la oscuridad; Sólo la luz puede hacer eso. El odio no puede expulsar al odio; Sólo el amor puede hacer eso.\"
+        \n\n — Martin Luther King Jr.</string>
+    <string name="inspire10">\"Honrala por todo lo que sus manos han hecho, \n
+                y que sus obras la lleven a la puerta de la ciudad.\"
+        \n\n — Proverbs 31:31</string>
+    <string name="inspire11">\"Llegas a amar, no encontrando a la persona perfecta, sino aprendiendo a ver perfectamente a una persona imperfecta. \"
+        \n\n — Sam Keen</string>
+    <string name="inspire12">\"Solo hay dos días en el año en que no se puede hacer nada. Uno se llama ayer y el otro se llama mañana.\"
+        \n\n — Dalai Lama XIV</string>
+    <string name="inspire13">\"El matrimonio es un taller ... donde el esposo trabaja y la esposa compra.\"
+        \n\n — The Internet</string>
+    <string name="inspire14">\"Destruyo a mi enemigo si lo hago mi amigo.\"
+        \n\n — Abraham Lincoln</string>
+    <string name="inspire15">\"Os declaro marido y mujer. Ahora puedes cambiar tu estado de facebook. \"
+        \n\n — Anonymous</string>
+    <string name="inspire16">\"Soy de mi amado, y mi amado es mío".\"
+        \n\n — Song of Solomon 8:3</string>
+    <string name="inspire17">\"Preferiría compartir una vida contigo que enfrentarte a todas las edades de este mundo solo.\"
+        \n\n — Arwen, The Fellowship of The Ring</string>
+    <string name="inspire18">\"Sé completamente humilde y gentil; sé paciente, soportándote el uno al otro en amor.\"
+        \n\n — Ephesians 4:2</string>
+    <string name="inspire19">\"El amor es una cosa bella y poderosa; pero como todas las otras cosas deliciosas, es empalagoso; y cuando los primeros transportes de la pasión comienzan a disminuir, lo que seguramente hará, y cederá, a menudo demasiado tarde, a reflexiones más sobrias, sirve para demostrar que el amor es un alimento demasiado delicado para vivir solo, y no debería para ser considerado más lejos que como un ingrediente necesario para esa felicidad matrimonial que resulta de una combinación de causas.\"
+        \n\n — George Washington</string>
+    <string name="inspire20">\"Quédate conmigo esta noche; debes verme morir. Durante mucho tiempo he probado el sabor de la muerte, huelo a muerte, y ¿quién estará al lado de mi Constanze, si no te quedas?\"
+        \n\n — Wolfgang Amadeus Mozart</string>
+    <string name="inspire21">\"Se necesita valor para amar, pero el dolor a través del amor es el fuego purificador que los que aman conocen generosamente. Todos conocemos a personas que tienen tanto miedo al dolor que se encierran como almejas en una concha y, sin dar nada, no reciben nada y, por lo tanto, se encogen hasta que la vida es una mera muerte en vida.\"
+        \n\n — Eleanor Roosevelt</string>
+    <string name="inspire22">\"Creo que el amor romántico es la fuente de los placeres más intensos que la vida tiene para ofrecer. En la relación de un hombre y una mujer que se aman con pasión, imaginación y ternura, hay algo de valor inestimable, ignorante. de lo cual es una gran desgracia para cualquier ser humano.\"
+        \n\n — Bertrand Russell</string>
+    <string name="inspire23">\"El amor es un fruto de temporada en todo momento, y al alcance de cada mano. Cualquiera puede recogerlo y no se establece un límite. Todos pueden alcanzar este amor a través de la meditación, el espíritu de oración y el sacrificio, mediante una vida interior intensa.\"
+        \n\n — Mother Theresa</string>
+    <string name="inspire24">"Ama a tu prójimo como a ti mismo."
+        \n\n — Jesus, Matthew 22:39</string>
+    <string name="inspire25">\"El caladrio es un ave del cual está relacionado que, cuando se lleva a la presencia de una persona enferma, si el hombre enfermo va a morir, el ave vuelve la cabeza y nunca lo mira; pero si el el hombre enfermo debe ser salvado, el ave nunca lo pierde de vista, sino que es la causa de curarlo de toda su enfermedad. Al igual que este es el amor de la virtud. Nunca mira ninguna cosa vil o básica, sino que se aferra siempre a la pura y las cosas virtuosas y adopta su morada en un corazón noble, como lo hacen las aves en los bosques verdes de las ramas floridas. Y este Amor se manifiesta más en la adversidad que en la prosperidad, como lo hace la luz, que brilla más donde el lugar es más oscuro.\"
+        \n\n — Leonardo Davinci</string>
+    <string name="inspire26">\"El matrimonio es cuando un hombre pierde su licenciatura y la mujer obtiene su maestría.\"
+        \n   \n — Rama Kochar</string>
+    <string name="inspire27">\"Si hablo en lenguas de hombres o de ángeles, pero no tengo amor, solo soy un gong rotundo o un címbalo. Si tengo el don de profecía y puedo comprender todos los misterios y todos los conocimientos, y si tengo una fe que puede mover montañas, pero no tengo amor, no soy nada. Si doy todo lo que poseo a los pobres y doy mi cuerpo a las penurias para que pueda jactarme, pero no tengo amor, no gano nada.\"
+        \n\n — 1 Cor. 13:1-3</string>
+    <string name="inspire28">\"Pero ama a tus enemigos, hazles el bien y préstales sin esperar que te devuelvan nada. Entonces tu recompensa será grande y serás un hijo del Altísimo, porque él es amable con los malvados y malvados.\"
+        \n\n — Jesus, Luke 6:35</string>
+    <string name="inspire29">\"Mi querida Sarah: &#8230;[ ]&#8230;   Los recuerdos de los momentos felices que he pasado contigo se arrastran sobre mí, y me siento muy agradecido a Dios y a ti por haberlos disfrutado durante tanto tiempo. es para mí renunciar a ellos y quemar hasta las cenizas las esperanzas de los años futuros, cuando, si Dios quiere, aún podríamos haber vivido y amado juntos, y haber visto a nuestros hijos crecer como hombres honorables, a nuestro alrededor. Lo tengo, lo sé, pero pocos y pequeños reclamos sobre la Divina Providencia, pero algo me susurra: tal vez sea la oración de mi pequeño Edgar, que regrese a mis seres queridos ilesos. Si no lo hago, mi querida Sarah, nunca olvide lo mucho que amo. tú, y cuando mi último aliento se me escape en el campo de batalla, susurrarás tu nombre. Perdona mis muchas faltas y los muchos dolores que te he causado. ¡Cuán descuidado y tonto he sido a menudo! Mis lágrimas cada pequeña mancha en tu felicidad ... "The memories of the blissful moments I have spent with you come creeping over me, and I feel most gratified to God and to you that I have enjoyed them for so long. And hard it is for me to give them up and burn to ashes the hopes of future years, when, God willing, we might still have lived and loved together, and seen our sons grown up to honorable manhood, around us. I have, I know, but few and small claims upon Divine Providence, but something whispers to me — perhaps it is the wafted prayer of my little Edgar, that I shall return to my loved ones unharmed. If I do not my dear Sarah, never forget how much I love you, and when my last breath escapes me on the battle field, it will whisper your name. Forgive my many faults and the many pains I have caused you. How thoughtless and foolish I have often times been! How gladly would I wash out with my tears every little spot upon your happiness &#8230;\"
+        \n\n — Sullivan Ballou</string>
+    <string name="inspire30">\"Nadie tiene mayor amor que este, que alguien dé su vida por sus amigos.\"
+        \n\n — Jesus, John 15:13</string>
+
+    <string name="invitation_title">Amo la invitación de tu marido</string>
+    <string name="invitation_message">Hola, he estado usando esta aplicación llamada "Ama a tu esposo". Puede ayudar a mejorar su matrimonio.\u0020</string>
+    <string name="invitation_deep_link">google.com</string>
+    <string name="invitation_cta">Haga clic aquí para abrir</string>
+
+    <string name="title_activity_challenge_complete">Desafío completado</string>
+    <string name="Completed30Days">¡Has completado el desafío de 30 días para amar a tu esposo!</string>
+    <string name="RecommendMessage">Hola, quiero recomendar la aplicación Love Your Husband. Puede ayudar a mejorar su relación con su esposo.\u0020</string>
+    <string name="RecommendSubject">Ama a tu Marido</string>
+    <string name="RecommendMessageHTML"><![CDATA[<p>¡Hola! He estado usando esta aplicación llamada Love Your Husband, y quería recomendarla. Tiene grandes ideas para mejorar tu matrimonio y amar mejor a tu esposo. Haga clic en este enlace para verlo.]]></string>
+    <string name="RecommendToFriendTitle">Recomienda Love Your Husband a un amigo</string>
+    <string name="Error">Error</string>
+    <string name="ProblemLoadingBillingClient">Problem Loading the Billing Client through Google.</string>
+    <string name="BillingDisconnected">LoveYourHusband billing Service disconnected.</string>
+    <string name="BillingDisconnectStartService">Billing is disconnected, called start Service connection again</string>
+    <string name="BillingNotSupported">La facturación de Google Play no es compatible con este dispositivo.</string>
+    <string name="Day">Día</string>
+    <string name="CompleteChallengeOn">Completa el desafío el día.</string>
+    <string name="SpaceToUnlock">para desbloquear.</string>
+    <string name="CompleteChallengeForTrophy">Debes completar un desafío para obtener un trofeo.</string>
+    <string name="thank_you_for_purchasing">Gracias por apoyar este proyecto y, lo que es más importante, gracias por invertir en usted, su esposo y su matrimonio. ¡Mantener el buen trabajo!
+    </string>
+</resources>
