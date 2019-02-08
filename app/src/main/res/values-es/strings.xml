@@ -156,4 +156,18 @@
     <string name="CompleteChallengeForTrophy">Debes completar un desafío para obtener un trofeo.</string>
     <string name="thank_you_for_purchasing">Gracias por apoyar este proyecto y, lo que es más importante, gracias por invertir en usted, su esposo y su matrimonio. ¡Mantener el buen trabajo!
     </string>
+
+    <string name="continue1">Continuar</string>
+    <string name="congratulations">¡¡Felicidades!!</string>
+    <string name="you_completed_day">Completaste el dia</string>
+    <string name="bring_it_on">¡Dale!</string>
+    <string name="recommend">Recomendar</string>
+    <string name="thoughts_and_comments">Pensamientos y Comentarios</string>
+    <string name="complete">Completar</string>
+    <string name="remove_ads">Eliminar anuncios</string>
+    <string name="locked">Bloqueada</string>
+    <string name="first_you_need_to_complete_day_x">Primero necesitas completar el día x</string>
+    <string name="unlock_days_7_30_and_remove_all_ads_from_the_app">Desbloquea los días 7-30 y elimina todos los anuncios de la aplicación.
+    </string>
+    <string name="unlock">Desbloquea</string>
 </resources>

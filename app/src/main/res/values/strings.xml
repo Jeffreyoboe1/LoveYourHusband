@@ -159,4 +159,17 @@
     <string name="thank_you_for_purchasing">Thank you for supporting this project, and more importantly, thank you for
         investing in yourself, your husband, and your marriage. Keep up the great work!
     </string>
+    <string name="continue1">Continue</string>
+    <string name="congratulations">Congratulations!!</string>
+    <string name="you_completed_day">You Completed Day</string>
+    <string name="bring_it_on">Bring It On!</string>
+    <string name="recommend">Recommend</string>
+    <string name="thoughts_and_comments">Thoughts and Comments</string>
+    <string name="complete">Complete</string>
+    <string name="remove_ads">Remove Ads</string>
+    <string name="locked">Locked</string>
+    <string name="first_you_need_to_complete_day_x">First you need to complete Day x</string>
+    <string name="unlock_days_7_30_and_remove_all_ads_from_the_app">Unlock Days 7-30 and remove all ads from the app.
+    </string>
+    <string name="unlock">Unlock</string>
 </resources>
